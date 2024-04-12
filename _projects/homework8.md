@@ -1,7 +1,7 @@
 ---
 name: Homework 8
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
+image: assets/pngs/plot1.png
 description: Homework 8
 custom_js:
   - vega.min
