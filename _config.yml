@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : Daniel Yao Portfolio
 description         : >-
-                      Data Scientist | AI Enthusiast 
+                    Data Scientist | Problem Solver | Innovator
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          :                     # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
@@ -44,7 +44,7 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-#  linkedin          : your_username
+linkedin          : daniel-yao-739109198
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
