@@ -5,7 +5,7 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : IS445 Jekyll Template 
+title               : Daniel Yao Portfolio
 description         : >-
                       I am definitely not a corgi!
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
@@ -34,11 +34,11 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : A. P. Corgi
+  name              : Daniel Yao
   image             : https://source.unsplash.com/300x300/?corgi&derpy
 #  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : danielyao777@gmail.com
 #  facebook          : your_username
   github            : jnaiman # JPN
 # gitlab            : your_username
@@ -77,9 +77,9 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: true                                        # Set true to enable analytics
   google:
-    tracking_id: your-google-tracking-id
+    tracking_id: G-P1T1WHEVEG
 
 
 ### Buy me a coffee ###
