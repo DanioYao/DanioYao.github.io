@@ -1,54 +1,44 @@
 - title: Student, University of Illinois Urbana-Champaign
   from: August 2022
   to: Present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Pursued a Bachelor of Science in Information Science + Data Science, specializing in machine learning and predictive modeling. 
+              Actively participated in student organizations such as Illinois Data Science Club (dsc) and Taiwan Student Association (TSA), fostering leadership and teamwork abilities.
 
 - title: Business Analyst, GuardAI Startup
   from: January 2024
   to: Present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Formulated targeted marketing strategies to increase brand awareness and client feedback, utilizing data-driven insights to find and optimize client outreach. 
+              Designed and developed an effective landing page for the company website, focusing on enhancing visibility and facilitating product demonstrations to attract potential customers. 
+              Acted as the primary point of contact for key clients, leading discussions to understand business needs and successfully negotiating deals to foster long-term partnerships and drive business growth.
 
-- title: Student Researcher, UIUC iSchool AI4U PTI GLasses Research
+
+- title: Student Researcher, UIUC iSchool AI4U PTI GLasses Research (SALT Lab)
   from: January 2024
   to: Present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Conducted a comprehensive literature review on object detection methods, focusing on inconsistent scene objects and weapons detection; enhanced ability to critically analyze and summarize key research findings.
+              Developed and tested a firearm detection model using YOLOv8 and Roboflow, training on annotated datasets and validating performance with police body camera and CCTV footage, achieving notable speed and initial accuracy.
+              Developed an audio-to-text transcriber for HoloLens 2 using C-Sharp, enabling real-time transcription to support hands-free interactions.
+              Integrated the ChatGPT API with transcriber for memory palace association generation, creating personalized learning with real-time AI recommendations.
 
 - title: Data Scientist, PricewaterhouseCoopers(PwC)
   from: June 2024
   to: July 2024
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Acted as data science expert, providing technical support, leading data cleaning efforts, and enhancing client engagement to ensure effective project outcomes.
+              Collaborated on a project with a major bank to develop an ML-based Predictive Loan Risk Assessment Model - evaluated and tested multiple ML models, improving accuracy by 15%.
+
 
 - title: Student Researcher, UIUC iSchool Drought Research
   from: August 2023
   to: December 2023
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Played a pivotal role in the development of an online platform to facilitate communication and data sharing among residents, water users, and stakeholders affected by the ongoing U.S. Southwest drought.
+              Developed and managed a data crawler to collect information from online news articles and Reddit, enabling the collection of firsthand accounts, news reports, and responses from community, government, and NGOs.
 
 - title: Data Scientist, Gamania Digital Entertainment Co.
   from: July 2023
   to: August 2023
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Developed an AI-powered chatbot for Gamania’s customer service to automate responses, contributing to a 43% reduction in customer support workload.
+              Leveraged game-related context analysis to determine the relevance of questions to Gamania’s games, and integrated ChatGPT to handle non-game related questions while engaging with users in a conversational manner.
+              Collaborated with a cross-functional team to optimize the chatbot’s performance and refine its natural language understanding capabilities, resulting in a chatbot resolution rate of 83%.
+              Implemented emotion recognition using natural language processing (NLP) to identify customer emotions, enabling tailored responses based on emotional context.
+
 
