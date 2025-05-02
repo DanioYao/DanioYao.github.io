@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+  Updates for JPN Spring 2023
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="State License Visualizer">
+  <meta property="og:description" content="The project visualizes license type distributions by state and action occurrences. (2024)">
+  <meta property="og:image" content="assets/pngs/state_license.png">
+
+  <title>State License Visualizer</title>
+  <meta name="description" content="The project visualizes license type distributions by state and action occurrences. (2024)">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Daniel Yao Portfolio</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="state-license-visualizer">State License Visualizer</h1>
+
+<p>The project aims to analyze and visualize the distribution of license types by state and the occurrences of different action types. It leverages interactive and static visualizations to allow users to explore and understand the data more effectively:</p>
+
+<h5 id="license-type-distribution-by-state">License Type Distribution by State:</h5>
+
+<p>The project visualizes the distribution of different license types across various states, with an interactive feature enabling users to select a state and view its specific distribution. This allows users to compare the prevalence of different license types in each state.</p>
+
+<h5 id="action-type-distribution">Action Type Distribution:</h5>
+
+<p>It shows the frequency of different action types in the dataset, helping users understand which actions are most common. Initially intended to be interactive, the plot was made static due to insufficient data for states outside Illinois.</p>
+
+<p>Overall, the project aims to provide insights into how license and action types vary by state and to showcase interactive visualizations, with the ability to compare distributions in a clear and informative way.</p>
+
+<h2 id="plot-1">Plot 1</h2>
+
+<p>For the first plot, it shows the distribution of license types by states. The interactive feature allows the user to switch between the different states. The x-axis is the License type, while the y-axis has the number of the different licenses. The color was chosen to reflect the different license types to clearly show the distributions of these licenses. Furthermore, the tooltip uses the state, license type and the number of licneses. In terms of properties, I wanted the height and width of the graph to stay constant instead of changing when a new state is selected. They are kept at a constant width of 800 and height of 400. The state select is the dropdown box that allows the user to choose a specific state to look at. The selection within the dropdown box are all the states available in the dataset.</p>
+
+<vegachart schema-url="/assets/json/plot1.json" style="width: 100%"></vegachart>
+
+<h2 id="plot-2">Plot 2</h2>
+
+<p>For the second plot, it shows the distribution of the types of actions and their number of occurences. The x-axis is the Action, while the y-axis has the number of occurances. The tooltip uses only those variables. For properties, they are set to constant once again at a width of 800 and height of 400. Initially, I was going to make the graph interactive as well allowing the user to choose between the states. This would have allowed the user to see the different type of actions and their number of occurances for indivisual states. However, the dataset did not have enough data for most states outside of Illinois. Only Illinois had more than 10 datasets. I included the interactive version below in the Workbook.ipynb and if you look at other states, there is a notable differnce in the number of data. I concluded that it would be better to have a static plot rather than an interactive one in this case to best showcase the distribution.</p>
+
+<vegachart schema-url="/assets/json/plot2.json" style="width: 100%"></vegachart>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Daniel Yao</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:danielyao777@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/DanioYao"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a>
+
+</div>
+  
+<!--<small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+-->
+
+</footer>
+
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
+
+
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+<!--
+end of checks! JPN
+-->
+
+</html>

@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Daniel Yao Portfolio">
-  <meta property="og:description" content="Data Scientist | Problem Solver | Innovator">
-  <meta property="og:image" content="assets/pngs/myphoto.png">
+  <meta property="og:title" content="Firearm Detection ML Model Project">
+  <meta property="og:description" content="This is a firearm detection model for law enforcement purposes. (2024)">
+  <meta property="og:image" content="assets/pngs/gun_example.png">
 
-  <title>Daniel Yao Portfolio</title>
-  <meta name="description" content="Data Scientist | Problem Solver | Innovator">
+  <title>Firearm Detection ML Model Project</title>
+  <meta name="description" content="This is a firearm detection model for law enforcement purposes. (2024)">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -60,7 +60,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="/about/">About</a>
 
@@ -71,22 +71,34 @@
   </div>
 
 </nav>
-    <div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="introduction">Introduction</h1>
 
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="assets/pngs/myphoto.png" alt="Daniel Yao Portfolio" class="circle-image wow animated zoomIn" data-wow-delay=".1s" />
-      </div>
-    </div>
+<p>This report will discuss the final implementation of the weapons object detection model. The model trained using a custom dataset with over 1000 images and 200 epochs. Epochs being the number of iterations the entire dataset has been used to train the model.</p>
 
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">Data Scientist | Problem Solver | Innovator</p>
+<p>This is done by using YOLOv8 as the base model and training it to detect weapons with high speed and relative accuracy. The training datasets are taken from Roboflow, a collection of open source computer vision datasets. After YOLOv8 has been trained using the custom dataset, it is then tested with bodycam and security footage videos found on Youtube.</p>
 
-  </div>
+<h1 id="accuracy-takeaways">Accuracy Takeaways</h1>
+
+<ol>
+  <li>The current model has accuracy issues in terms of precision and recall</li>
+  <li>The model excels at predicting bounding boxes and  identifying the object’s category</li>
+</ol>
+
+<h1 id="testing-results">Testing Results</h1>
+
+<p>The model has been tested with two different types of videos: security camera footage (CCTV) and police body camera footage.</p>
+
+<p>Security Camera Footage 
+<img title="gun example 1" alt="model example 1" src="/assets/pngs/gun_example.png" /></p>
+
+<p>The model tested with the CCTV footage is more accurate and reliable compared to the police body camera footage. This is due to the chaotic nature of the footage. There are a lot more variables to consider from a body camera than a stationary CCTV. These challenges include motion blur, variable lighting conditions, different perspectives, dynamic backgrounds, and limited field of view. For the model to become more accurate with the bodycam, more finetuning will need to be done to adjust for it. This can include adjusting detection thresholds dynamically instead of setting it at a constant of 0.5 and incorporating temporal information.</p>
+
+<p>There are also issues with the detection system where it highlights black objects as weapons.</p>
+
+<p><img title="gun example 2" alt="model example 2" src="/assets/pngs/gun_example2.png" /></p>
+
 </div>
-
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -116,6 +128,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 
