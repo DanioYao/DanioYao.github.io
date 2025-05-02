@@ -1,6 +1,6 @@
 ---
 name: Weather Modeling for Urbana 
-tools: [Python]
+tools: [Python, pandas, matplotlib]
 image: assets/pngs/UIUC.png
 description: This will be a data analysis of Urbana weather. (2023)
 
